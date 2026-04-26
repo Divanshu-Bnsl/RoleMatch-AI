@@ -21,6 +21,17 @@ RoleMatch AI is a resume analysis project that helps evaluate resumes against jo
 pip install -r requirements.txt
 ```
 
+## Git LFS Requirement
+
+This repository uses Git LFS for dataset files in `data/*.csv`.
+
+After cloning, run:
+
+```bash
+git lfs install
+git lfs pull
+```
+
 ## Run
 
 Train the model:
